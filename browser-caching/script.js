@@ -1,0 +1,1 @@
+alert('Old alert message!')
