@@ -1,5 +1,7 @@
 # Browser Caching
 
+Browser caching is a type of [web caching](https://en.wikipedia.org/wiki/Web_cache) implemented client-side, in the user's web browser.
+
 ## Instructions
 
 1. Start a Python http server in this directory: `python3 -m http.server` or `python -m http.server`
