@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        
+        <title>Event Listeners</title>
+        
+        <meta charset="UTF-8">
+        
+    </head>
+    
+    <body id="body">
+        
+        <button id="button">Click Me!</button>
+
+        <script>
+            const button = document.getElementById('button');
+            button.addEventListener('click', function (event) {
+                const body = document.getElementById('body')
+                body.style.backgroundColor = 'red';
+            });
+        </script>
+
+    </body>
+
+</html>
